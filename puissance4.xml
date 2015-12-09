@@ -2,70 +2,39 @@
 <puissance4 xmlns="http://www.example.org/puissance4"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.example.org/puissance4 file:///H:/JavaWorkspace/XMLProjet/puissance4.xsd">
-	<colonne>
-		<case couleur=""/>
-		<case couleur=""/>
-		<case couleur=""/>
-		<case couleur=""/>
-		<case couleur=""/>
-		<case couleur=""/>
-		
+        
+    <colonne>
 	</colonne>
 	
 	<colonne>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
+		<piece couleur="rouge"/>
+		<piece couleur="jaune"/>
+		<piece couleur="jaune"/>
+		<piece couleur="rouge"/>
+		<piece couleur="jaune"/>
+		<piece couleur="rouge"/>
 	</colonne>
 	
 	<colonne>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
 	</colonne>
 	
 	<colonne>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
+		<piece couleur="jaune"/>
+		<piece couleur="jaune"/>
+		<piece couleur="rouge"/>
+		<piece couleur="rouge"/>
+		<piece couleur="rouge"/>
+		<piece couleur="jaune"/>
 	</colonne>
 	
-	<colonne >
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
+	<colonne>
+		<piece couleur="jaune"/>
 	</colonne>
 	
-	<colonne >
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
+	<colonne>
 	</colonne>
 	
-	<colonne >
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
-		<case/>
+	<colonne>
 	</colonne>
 	
-	
-
 </puissance4>

@@ -4,23 +4,35 @@
 		xmlns:tns="http://www.example.org/puissance4" 
 		elementFormDefault="qualified">
 		
+		
+	<xsd:element name="piece">
+		<xsd:complexType>
+			<xsd:attribute name="couleur" use="required">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="rouge"/>
+						<xsd:enumeration value="jaune"/>
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="colonne">
+		<xsd:complexType>
+			<xsd:sequence   minOccurs="0" maxOccurs="6">
+				<xsd:element ref="tns:piece"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+		
+		
 		<xsd:element name="puissance4">
 			<xsd:complexType>
-				<xsd:sequence minOccurs="7" maxOccurs="7">
-					<xsd:element name="colonne">
-						<xsd:complexType>
-							<xsd:sequence minOccurs="6" maxOccurs="6">
-								<xsd:element name="case"/>
-							</xsd:sequence>
-						</xsd:complexType>
-					</xsd:element>
+				<xsd:sequence  minOccurs="7" maxOccurs="7">
+					<xsd:element ref="tns:colonne"/>
 				</xsd:sequence>
 			</xsd:complexType>
 		</xsd:element>
-		
-		
-		
-		
-
-
 </xsd:schema>
+
