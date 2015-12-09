@@ -2,5 +2,5 @@
 Projet XML
 
 But : 
-  - Transformation d'un arbre XML en SVG (XSLT)
-  - Colorier les noeuds sÃ©lÃ©ctionnÃ©s en XPATH
+  - Créer un XSD permettant de représenter une configuration de puissance 4
+  - Créer une transformation XSLT pour représenter la configuration
