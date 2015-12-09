@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+		targetNamespace="http://www.example.org/puissance4" 
+		xmlns:tns="http://www.example.org/puissance4" 
+		elementFormDefault="qualified">
+		
+		<xsd:element name="puissance4">
+			<xsd:complexType>
+				<xsd:sequence minOccurs="7" maxOccurs="7">
+					<xsd:element name="colonne">
+						<xsd:complexType>
+							<xsd:sequence minOccurs="6" maxOccurs="6">
+								<xsd:element name="case"/>
+							</xsd:sequence>
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:sequence>
+			</xsd:complexType>
+		</xsd:element>
+		
+		
+		
+		
+
+
+</xsd:schema>

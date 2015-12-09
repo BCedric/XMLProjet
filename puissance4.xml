@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<puissance4 xmlns="http://www.example.org/puissance4"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.example.org/puissance4 file:///H:/JavaWorkspace/XMLProjet/puissance4.xsd">
+	<colonne>
+		<case couleur=""/>
+		<case couleur=""/>
+		<case couleur=""/>
+		<case couleur=""/>
+		<case couleur=""/>
+		<case couleur=""/>
+		
+	</colonne>
+	
+	<colonne>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+	</colonne>
+	
+	<colonne>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+	</colonne>
+	
+	<colonne>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+	</colonne>
+	
+	<colonne >
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+	</colonne>
+	
+	<colonne >
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+	</colonne>
+	
+	<colonne >
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+		<case/>
+	</colonne>
+	
+	
+
+</puissance4>
