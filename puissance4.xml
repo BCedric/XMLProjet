@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href= "puissance4Transformation.xsl" ?>
-<puissance4 xmlns="http://www.example.org/puissance4"
+<puissance4 xmlns:pu="http://www.example.org/puissance4"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.example.org/puissance4 file:///H:/JavaWorkspace/XMLProjet/puissance4.xsd">
         
@@ -8,34 +8,41 @@
 	</colonne>
 	
 	<colonne>
-		<piece couleur="rouge"/>
-		<piece couleur="jaune"/>
-		<piece couleur="jaune"/>
-		<piece couleur="rouge"/>
-		<piece couleur="jaune"/>
-		<piece couleur="rouge"/>
+		<piece couleur="red"/>
+		<piece couleur="yellow"/>
+		<piece couleur="yellow"/>
+		<piece couleur="red"/>
+		<piece couleur="yellow"/>
+		<piece couleur="red"/>
 	</colonne>
 	
 	<colonne>
 	</colonne>
 	
 	<colonne>
-		<piece couleur="jaune"/>
-		<piece couleur="jaune"/>
-		<piece couleur="rouge"/>
-		<piece couleur="rouge"/>
-		<piece couleur="rouge"/>
-		<piece couleur="jaune"/>
+		<piece couleur="yellow"/>
+		<piece couleur="yellow"/>
+		<piece couleur="red"/>
+		<piece couleur="red"/>
+		<piece couleur="red"/>
+		<piece couleur="yellow"/>
 	</colonne>
 	
 	<colonne>
-		<piece couleur="jaune"/>
+		<piece couleur="yellow"/>
 	</colonne>
 	
 	<colonne>
+		<piece couleur="red"/>
+		<piece couleur="yellow"/>
+		<piece couleur="yellow"/>
+		
 	</colonne>
 	
 	<colonne>
+		<piece couleur="red"/>
+		<piece couleur="red"/>
+		<piece couleur="yellow"/>
 	</colonne>
 	
 </puissance4>

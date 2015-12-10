@@ -1,4 +1,159 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800">
-<rect width="700" height="600" x="0" y="O" fill="blue"/>
+<?xml version="1.0" encoding="UTF-8"?><svg version="1.1" width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+<rect width="790" height="680" x="0" y="0" fill="blue"/>
+        
+    <coucou val="0"/>
+<circle cx="60" cy="610" r="50" fill="white"/>
+<coucou val="1"/>
+<circle cx="60" cy="500" r="50" fill="white"/>
+<coucou val="2"/>
+<circle cx="60" cy="390" r="50" fill="white"/>
+<coucou val="3"/>
+<circle cx="60" cy="280" r="50" fill="white"/>
+<coucou val="4"/>
+<circle cx="60" cy="170" r="50" fill="white"/>
+<coucou val="5"/>
+<circle cx="60" cy="60" r="50" fill="white"/>
+<coucou val="6"/>
+	
+	
+	
+	
+	
+	
+	
+	
+	<circle cx="170" cy="610" r="50" fill="red"/>
+<circle cx="170" cy="500" r="50" fill="yellow"/>
+<circle cx="170" cy="390" r="50" fill="yellow"/>
+<circle cx="170" cy="280" r="50" fill="red"/>
+<circle cx="170" cy="170" r="50" fill="yellow"/>
+<circle cx="170" cy="60" r="50" fill="red"/>
+<coucou val="6"/>
+		
+		
+		
+		
+		
+		
+	
+	
+	<coucou val="0"/>
+<circle cx="280" cy="610" r="50" fill="white"/>
+<coucou val="1"/>
+<circle cx="280" cy="500" r="50" fill="white"/>
+<coucou val="2"/>
+<circle cx="280" cy="390" r="50" fill="white"/>
+<coucou val="3"/>
+<circle cx="280" cy="280" r="50" fill="white"/>
+<coucou val="4"/>
+<circle cx="280" cy="170" r="50" fill="white"/>
+<coucou val="5"/>
+<circle cx="280" cy="60" r="50" fill="white"/>
+<coucou val="6"/>
+	
+	
+	
+	
+	
+	
+	
+	
+	<circle cx="390" cy="610" r="50" fill="yellow"/>
+<circle cx="390" cy="500" r="50" fill="yellow"/>
+<circle cx="390" cy="390" r="50" fill="red"/>
+<circle cx="390" cy="280" r="50" fill="red"/>
+<circle cx="390" cy="170" r="50" fill="red"/>
+<circle cx="390" cy="60" r="50" fill="yellow"/>
+<coucou val="6"/>
+		
+		
+		
+		
+		
+		
+	
+	
+	<circle cx="500" cy="610" r="50" fill="yellow"/>
+<coucou val="1"/>
+<circle cx="500" cy="500" r="50" fill="white"/>
+<coucou val="2"/>
+<circle cx="500" cy="390" r="50" fill="white"/>
+<coucou val="3"/>
+<circle cx="500" cy="280" r="50" fill="white"/>
+<coucou val="4"/>
+<circle cx="500" cy="170" r="50" fill="white"/>
+<coucou val="5"/>
+<circle cx="500" cy="60" r="50" fill="white"/>
+<coucou val="6"/>
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	<circle cx="610" cy="610" r="50" fill="red"/>
+<circle cx="610" cy="500" r="50" fill="yellow"/>
+<circle cx="610" cy="390" r="50" fill="yellow"/>
+<coucou val="3"/>
+<circle cx="610" cy="280" r="50" fill="white"/>
+<coucou val="4"/>
+<circle cx="610" cy="170" r="50" fill="white"/>
+<coucou val="5"/>
+<circle cx="610" cy="60" r="50" fill="white"/>
+<coucou val="6"/>
+		
+		
+		
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		
+		
+	
+		
+		
+		
+		
+	
+	
+	<circle cx="720" cy="610" r="50" fill="red"/>
+<circle cx="720" cy="500" r="50" fill="red"/>
+<circle cx="720" cy="390" r="50" fill="yellow"/>
+<coucou val="3"/>
+<circle cx="720" cy="280" r="50" fill="white"/>
+<coucou val="4"/>
+<circle cx="720" cy="170" r="50" fill="white"/>
+<coucou val="5"/>
+<circle cx="720" cy="60" r="50" fill="white"/>
+<coucou val="6"/>
+		
+		
+		
+	
+		
+		
+		
+	
+		
+		
+		
+	
+		
+		
+		
+	
+	
 </svg>
