@@ -4,19 +4,20 @@
 	<xsl:variable name="x" select="50"/>
 	
 	<xsl:template match="/">
-			
-			<xsl:if test="count(//piece[@couleur='red']) = count(//piece[@couleur='red'])">
-				<nbRedYellowValid>true</nbRedYellowValid>
-			</xsl:if>
-		
-		
+
 		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800">
+			<xsl:choose>
+			  <xsl:when test="count(//piece[@couleur='red']) &lt; count(//piece[@couleur='yellow'])-1 or count(//piece[@couleur='yellow']) &lt; count(//piece[@couleur='red'])-1">
+			  	 <text x="0" y="15" fill="red">La configuration contient trop de pions jaunes ou rouges</text>
+			  </xsl:when>
+			  <xsl:otherwise>
+			  	<rect width="790" height="680" x="0" y="0" fill="blue" />
+				<xsl:apply-templates/>
+			  </xsl:otherwise>
+			</xsl:choose>
+		
+					
 			
-			<rect width="790" height="680" x="0" y="0" fill="blue" />
-			<xsl:for-each select="colonne">
-				
-			</xsl:for-each>
-			<xsl:apply-templates/>
 		</svg>
 	</xsl:template>
 	
