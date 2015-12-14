@@ -2,7 +2,14 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 	<xsl:variable name="x" select="50"/>
+	
 	<xsl:template match="/">
+			
+			<xsl:if test="count(//piece[@couleur='red']) = count(//piece[@couleur='red'])">
+				<nbRedYellowValid>true</nbRedYellowValid>
+			</xsl:if>
+		
+		
 		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="800">
 			
 			<rect width="790" height="680" x="0" y="0" fill="blue" />
@@ -30,7 +37,6 @@
 	<xsl:template name="completerColonne">
 		<xsl:param name="nbNoeuds" />
 		<xsl:param name="posCol" />
-		<coucou val="{$nbNoeuds}"/>
     	<xsl:if test="$nbNoeuds &lt; 6">
     		<circle cx="{((($posCol) div 2)-1)*110+60}" cy="{670-((($nbNoeuds)+1)*110)+50}" r="50" fill="white" />
     		<xsl:call-template name="completerColonne">
